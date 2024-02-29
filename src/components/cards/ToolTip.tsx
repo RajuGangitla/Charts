@@ -1,5 +1,3 @@
-
-
 export default function ToolTip({ title }: { title: string }) {
     return (
         <>
@@ -8,7 +6,7 @@ export default function ToolTip({ title }: { title: string }) {
                     {title}
                 </p>
                 <p className="text-black my-2 ">
-                    Your online store's traffic volume, shown in sessions.
+                    Your online store&apos;s traffic volume, shown in sessions.
                 </p>
             </div>
         </>

@@ -18,8 +18,8 @@ export const ChartTooltip = ({
                 style={tooltipStyle}
             >
                 {
-                    payload?.length > 0 && payload?.map((data:any)=>(
-                        <div className="flex items-center space-x-6 ">
+                    payload?.length > 0 && payload?.map((data:any, index:number)=>(
+                        <div className="flex items-center space-x-6" key={index}>
                             <div className="w-6 h-1 rounded-md" style={{ backgroundColor: data.color }}></div>
                             <p className="text-xs">{label}</p>
                             <p className="text-xs">{data?.value}</p>
