@@ -34,7 +34,7 @@ export default function MetricCard({ s, index, selectedMetrics, setSelectedMetri
         <>
             <div
                 key={s.key+index}
-                className={`relative w-full rounded-lg p-2 hover:bg-cardHover hover:transition-all hover:ease-in-out duration-200 ${selectedMetrics.some((metric: any) => metric.id === s.id)
+                className={`relative w-full rounded-lg p-2 hover:bg-cardHover cursor-pointer hover:transition-all hover:ease-in-out duration-200 ${selectedMetrics.some((metric: any) => metric.id === s.id)
                     ? "bg-activeColor"
                     : ""
                     } `}
