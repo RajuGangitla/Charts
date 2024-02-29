@@ -6,7 +6,7 @@ export default function SkeletonLoader(){
     return (
         <>
             <div className=" w-full flex justify-end">
-                <Skeleton baseColor="##D9D9D9" height={30} />
+                <Skeleton baseColor="#D9D9D9" height={30} />
             </div>
             <div className="bg-white mx-12 my-4 rounded-lg shadow-md hover:shadow-lg ">
                 <div className="flex items-center p-4 space-x-4">
